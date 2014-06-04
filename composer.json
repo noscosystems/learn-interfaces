@@ -1,0 +1,24 @@
+{
+    "name":                                 "noscosystems/learn-interfaces",
+    "description":                          "Interfaces for the learn project.",
+    "keywords":                             ["Nosco", "Systems", "composer", "psr", "interfaces"],
+    "type":                                 "library",
+    "homepage":                             "https://github.com/noscosystems/learn-interfaces",
+    "license":                              "MIT",
+    "version":                              "1.0.0",
+
+    "authors": [
+        {
+            "name":                         "Zander Baldwin",
+            "email":                        "mynameis@zande.rs",
+            "homepage":                     "http://mynameis.zande.rs/",
+            "role":                         "Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Nosco\\Learn\\Interfaces": "src/"
+        }
+    }
+}
